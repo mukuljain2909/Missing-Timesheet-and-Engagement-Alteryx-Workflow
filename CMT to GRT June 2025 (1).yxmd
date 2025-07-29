@@ -1,0 +1,2076 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>capital market - records 15 July 2025.xlsx
+Query=`capital market - records$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Record ID" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Record Type" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Status" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Creation Date" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="Date" />
+            <Field name="Advance Approval" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Submission Date" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="Date" />
+            <Field name="Date Completed" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="Date" />
+            <Field name="Engagement Name" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_WString" />
+            <Field name="Engagement Number" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Client Name" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Client Code" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Area" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Region" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Country" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="US Region" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Assigned To" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="Double" />
+            <Field name="Creator Name" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Most Recent Completed Fiscal Year End" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="Date" />
+            <Field name="Industry" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Team Member" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Partner in Charge" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Number of years of audits completed by PIC" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="Double" />
+            <Field name="Engagement Quality Reviewer / Independent Reviewer" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Number of years of audits completed by EQR / IR" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="Double" />
+            <Field name="Offering Reviewer" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Is a Regulatory Reviewer required for this transaction?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Regulatory Reviewer" size="506" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Destination Country" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Reason Regulatory Reviewer not required" size="1737" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_WString" />
+            <Field name="Is a cross-border IFRS technical reviewer required?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Cross-border IFRS technical reviewer" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Professional Practice Approver" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Are the financial statements of our audit client being included in a registration statement, proxy statement, or offering document of another issuer?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="What is the purpose of our client's financial statements being included in the offering?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Specify" size="694" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_WString" />
+            <Field name="Is our client a US SEC registrant?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Is our client a listed entity?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Is our client a Public Interest Entity (i.e., PIE)?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Is our client a PIE because it is a private fund required to comply with SEC independence rules in order to comply with the Custody Rule?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Does the transaction pertain to a SPAC (or, alternatively, a reverse merger or &quot;back door registration&quot; after which our client will become the reporting entity)?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Is this the first time our client's financial statements will be included in an offering for this Issuer?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="What is the name of the Issuer? (i.e., the acquirer, investor, or owner of the client entity)" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_WString" />
+            <Field name="Who is the auditor of the Issuer?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Location of primary listing" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Is this Issuer an existing US SEC registrant?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Is the Issuer a listed entity?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Is the Issuer a Public Interest Entity (i.e., PIE)?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Nature of offering - for records created prior to Spring 2022&#xA;Registered with the US SEC under 1933 or 1934 Acts&#xA;Registered with the US SEC under 1940 Act&#xA;Registered with non-US securities regulator&#xA;Offered in the US, and exempt from registration with the" size="899" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_WString" />
+            <Field name="Description of the transaction" size="2902" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_WString" />
+            <Field name="Offered in the US?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Registered with the US SEC under 1933 or 1934 Acts&#xA;Registered with the US SEC under 1940 Act&#xA;Offered in the US, and exempt from registration with the US SEC" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Does this pertain to a series  (i.e., &quot;bundling&quot;) of multiple transactions/issuers?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="What is the end date for this series of offerings?" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="Date" />
+            <Field name="Offered in location(s) other than US?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Does the offering have registration rights? (i.e., will require a future filing with a securities regulator or exchange)" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="The transaction is triggering an initial listing or initial filing or submissions with a securities regulator or exchange (including a confidential submission)?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Has the current EQR / IR previously performed a review of a completed capital markets transaction for this client?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Proposed date to commence offering review" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="Date" />
+            <Field name="Proposed filing (or submission) date" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="Date" />
+            <Field name="Anticipated total monetary amount of offering" size="279" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Does the transaction relate to an IPO where issue proceeds are estimated to potentially exceed US$250 million (or where Regional PPD would reasonably be expected to believe there are potentially elevated risks)? If yes, Regional PPD should communicate to " size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Type of Securities" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Specify2" size="2160" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_WString" />
+            <Field name="Years" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="Double" />
+            <Field name="Months" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="Double" />
+            <Field name="Ending: [DD/Month/YYYY]" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="Date" />
+            <Field name="Is this offering related to a merger or business combination?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="What is the name of the target?" size="798" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_WString" />
+            <Field name="Is the target public or private?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Are the target's financial statements being included in the offering document?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Who are the target's auditors?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_WString" />
+            <Field name="Has there been a material retrospective accounting change? (that has not yet been reflected in the annual financial statements in the offering document)" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Was EY's audit opinion on the most recent financial statements qualified?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Is this client designated as close-monitoring?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Does this offering have a cross-border element?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Is the EQR / IR (or other previously designated offering reviewer) available to perform a review in connection with this offering?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Currency of the financial statements" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Was a material weakness(es) identified in connection with the last fiscal year, or subsequently?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Under which auditing standards was EY's most recent audit report issued?&#xA;PCAOB&#xA;AICPA&#xA;International Standards on Auditing (ISA)&#xA;Other" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Specify3" size="275" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Will the audit of the financial statements presented be required to be converted to other standards in connection with the offering?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Specify Which Standards" size="729" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="What independence standards were used to perform the audit?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_WString" />
+            <Field name="Specify Which Standards2" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Under which basis of accounting were the financial statements prepared?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Specify Which Standards3" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Has the client used any US GAAP private company alternatives (PCC)?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Has the client applied the public business entity (PBE or SEC filer) transition provisions and disclosure requirements in US GAAP?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Was an IFRS technical review performed for the most recent audited year, by an accredited reviewer?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Does the audit engagement team consult with Private Equity Professional Practice?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Name of significant private equity stakeholder" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Is EY a predecessor auditor for this issuer?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Who is the successor auditor?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Is the issuer an emerging growth company (EGC)?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Brief description of the cross-border transaction." size="1427" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_WString" />
+            <Field name="Under which basis of accounting were the financial statements prepared?2" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Specify Which Standards4" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="IFRS technical reviewer" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="What is the destination country of the offering?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Has the client made prior offerings in this jurisdiction? If yes, who was the last designated cross-border IFRS technical reviewer for this country?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Security Listed on Exchange or Subject to local Securities Regulatory Review? If yes input exchange name or Regulator" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Monetary amount" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Does the audit engagement have an existing GAPM CROSSBORDER offering reviewer?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+            <Field name="Name of assigned GAPM CROSSBORDER offering reviewer?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\capital market - records 15 July 2025.xlsx|||`capital market - records$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="559" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>MasterExportReport_UnitedStates-20250710-142521Z.xlsx
+Query=`MasterExportReport_UnitedSt...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GRT ID" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Entity Alias Name" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_WString" />
+            <Field name="Client Name" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_WString" />
+            <Field name="Global Ultimate Parent" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_WString" />
+            <Field name="Location Issuing Report" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Region Issuing Report" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Location of Incorporation" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Location of Incorporation Region" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Industry Sector" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Industry Sub Sector" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Is this engagement a fund that is part of a series with multiple year ends?" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Fiscal Period End" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Period" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Report Issuance Date" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Date" />
+            <Field name="Stock Exchange" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Comments (Background Info)" size="2820" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_WString" />
+            <Field name="Current Period" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Status" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="GIS ID of the GUP" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Double" />
+            <Field name="GFIS Client ID" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Double" />
+            <Field name="GFIS Engagement ID" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Double" />
+            <Field name="Mercury Client ID" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Double" />
+            <Field name="Mercury Engagement ID" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="GIS ID" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Double" />
+            <Field name="GIS Restrictions" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_WString" />
+            <Field name="DUNS Number" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Double" />
+            <Field name="Ultimate DUNS Number" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Double" />
+            <Field name="CIK Code" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Priority Account Status" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Initial Filing Date" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Date" />
+            <Field name="Date Entity Became a PIE" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Date" />
+            <Field name="First Period Audited by EY as a Firm" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="funds" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Comments (Admin Only)" size="5162" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_WString" />
+            <Field name="SEC Form 11-K â€“ Employee benefit plan" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Date when engagement became inactive" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Date" />
+            <Field name="Custom Field Admin 1 - Label" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Custom Field Admin 1 - Value" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Double" />
+            <Field name="Custom Field Admin 2 - Label" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Custom Field Admin 2 - Value" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Double" />
+            <Field name="Custom Field Admin 3 - Label" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Custom Field Admin 3 - Value" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Double" />
+            <Field name="Custom Field Admin 4 - Label" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Custom Field Admin 4 - Value" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Double" />
+            <Field name="Engagement Type" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Firm Rotation Required" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="PIE Status" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Basis for PIE Status Response" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="PIE Subsidiary" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Regulated Financial Services Company" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Subject to Extra-Territorial Rules" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Jurisdictional Exception" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Non-complex entity audits meeting the Very Small Entity or Small Business criteria" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Publicly Traded Entity (PTE)" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Double" />
+            <Field name="Sustainability assurance" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Double" />
+            <Field name="Country Attribute 1 - Label" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Country Attribute 1 - Value" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_WString" />
+            <Field name="Employee Name" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_WString" />
+            <Field name="Role Abbreviation" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Employee GUI" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Employee GPN" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Last Role In Period" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Period (Date Range)" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Final Audit Allowed" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Cooling Off Period (RR)" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="First Period in Current Rotational Role" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="First Period in Rotational Role" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Periods Served in RR Role" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Double" />
+            <Field name="Periods Served in Current Role" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Double" />
+            <Field name="End of Safe Harbor" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="End of Safe Harbor (Extended Period)" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="First Period in Role Subject to Long Association" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Periods Served in LA Role" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Double" />
+            <Field name="Service Periods Remaining" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Double" />
+            <Field name="Cooling Off Periods (LA)" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="First Month of Involvement" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Date" />
+            <Field name="Last Month of Involvement" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Date" />
+            <Field name="Break In Service (Date Range)" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Last Period Served" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_String" />
+            <Field name="Funds Only: First Series Year End" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Date" />
+            <Field name="Funds Only: Last Series Year End" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="Date" />
+            <Field name="Comments (Eng Team)" size="3581" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Record ID" selected="True" />
+            <SelectField field="Record Type" selected="True" />
+            <SelectField field="Status" selected="True" />
+            <SelectField field="Creation Date" selected="True" />
+            <SelectField field="Advance Approval" selected="True" />
+            <SelectField field="Submission Date" selected="True" />
+            <SelectField field="Date Completed" selected="True" />
+            <SelectField field="Engagement Name" selected="True" />
+            <SelectField field="Engagement Number" selected="True" />
+            <SelectField field="Client Name" selected="True" />
+            <SelectField field="Client Code" selected="True" />
+            <SelectField field="Area" selected="True" />
+            <SelectField field="Region" selected="True" />
+            <SelectField field="Most Recent Completed Fiscal Year End" selected="True" type="V_String" size="255" />
+            <SelectField field="Partner in Charge" selected="True" />
+            <SelectField field="Number of years of audits completed by PIC" selected="True" />
+            <SelectField field="Engagement Quality Reviewer / Independent Reviewer" selected="True" />
+            <SelectField field="Number of years of audits completed by EQR / IR" selected="True" />
+            <SelectField field="Offering Reviewer" selected="True" />
+            <SelectField field="Is a Regulatory Reviewer required for this transaction?" selected="True" />
+            <SelectField field="Proposed date to commence offering review" selected="False" type="V_String" size="10" />
+            <SelectField field="Proposed filing (or submission) date" selected="False" type="V_String" size="10" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="559" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Mercury Client ID" selected="True" type="V_String" size="19" />
+            <SelectField field="Role Abbreviation" selected="True" type="V_WString" size="255" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="702" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Client Code]+[Most Recent Completed Fiscal Year End]+[Offering Reviewer]" field="Combined Key [Client Code+Year+EQR/IR]]" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Client Code]+[Offering Reviewer]+&quot;Non-Rotational&quot;" field="Combine Key [Client Code+EQR/IR+NR]" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;CMT&quot;" field="Source" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Combined Key [Client Code+Year+EQR/IR]] = [Client Code]+[Most Recent Completed F...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="282" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Left([Most Recent Completed Fiscal Year End], 4)" field="Most Recent Completed Fiscal Year End" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Most Recent Completed Fiscal Year End = Left([Most Recent Completed Fiscal Year ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="294" y="559" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Right([Period (Date Range)],4)" field="Period (Date Range)" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Period (Date Range) = Right([Period (Date Range)],4)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="1530" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>Combined Key [Client Code+Year+EQR/IR]]</FieldFind>
+          <FieldSearch>Combined Key [Client ID+Period+Emp]</FieldSearch>
+          <ReplaceFoundField>Entity Alias Name</ReplaceFoundField>
+          <FindMode>FindWhole</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Append</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="GRT ID" />
+            <Field field="Entity Alias Name" />
+            <Field field="Mercury Client ID" />
+            <Field field="GIS ID" />
+            <Field field="Period (Date Range)" />
+            <Field field="EQR" />
+            <Field field="POR" />
+            <Field field="Employee Name" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FuzzyMatch.FuzzyMatch">
+        <Position x="2598" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RecordIdField>RecordID</RecordIdField>
+          <MatchThreshold value="95" />
+          <OutputScore value="False" />
+          <OutputKey value="False" />
+          <OutputUnmatched value="False" />
+          <OutputMakeGroup value="False" />
+          <GenerateKeys value="False" />
+          <MatchFields>
+            <MatchField>
+              <FieldName>Most Recent Completed Fiscal Year End</FieldName>
+              <Style Name="Exact">
+                <KeyGeneration>
+                  <KeyFunction>WholeField</KeyFunction>
+                  <UseWords value="False" />
+                  <IgnoreEmpty value="True" />
+                  <MaxKeyLen value="25" />
+                </KeyGeneration>
+                <Match>
+                  <MatchFunction>None</MatchFunction>
+                  <AdditionalMatchFunction>NoSpace</AdditionalMatchFunction>
+                  <WordStats />
+                  <MatchThreshold value="80" />
+                  <MatchWeight value="100" />
+                </Match>
+              </Style>
+            </MatchField>
+            <MatchField>
+              <FieldName>Engagement Quality Reviewer / Independent Reviewer</FieldName>
+              <Style Name="Name">
+                <PreProcess name="Strip Punctuation">
+                  <Search>(['-])|(\s?[[:punct:]]\s?)</Search>
+                  <Replace>(?2 :)</Replace>
+                </PreProcess>
+                <KeyGeneration>
+                  <KeyFunction>DblMetaphone</KeyFunction>
+                  <UseWords value="True" />
+                  <IgnoreWords />
+                  <IgnoreSingleLetterWords value="True" />
+                  <IgnoreEmpty value="True" />
+                  <MaxKeyLen value="4" />
+                </KeyGeneration>
+                <Match>
+                  <MatchFunction>JaroTFIDF</MatchFunction>
+                  <AdditionalMatchFunction>NoSpace</AdditionalMatchFunction>
+                  <WordStats />
+                  <NicknameFile />
+                  <NicknamePenalty value="15" />
+                  <MatchThreshold value="85" />
+                  <MatchWeight value="100" />
+                </Match>
+              </Style>
+            </MatchField>
+            <MatchField>
+              <FieldName>Client Name</FieldName>
+              <Style Name="Custom">
+                <PreProcess name="Strip Punctuation">
+                  <Search>(['-])|(\s?[[:punct:]]\s?)</Search>
+                  <Replace>(?2 :)</Replace>
+                </PreProcess>
+                <KeyGeneration>
+                  <KeyFunction>DblMetaphone</KeyFunction>
+                  <UseWords value="True" />
+                  <IgnoreWords>AND OF THE CO INC</IgnoreWords>
+                  <IgnoreSingleLetterWords value="True" />
+                  <IgnoreEmpty value="True" />
+                  <MaxKeyLen value="4" />
+                </KeyGeneration>
+                <Match>
+                  <MatchFunction>BestOfTFIDF_Digits</MatchFunction>
+                  <AdditionalMatchFunction>None</AdditionalMatchFunction>
+                  <WordStats>US Company.yxdb</WordStats>
+                  <NicknameFile />
+                  <NicknamePenalty value="15" />
+                  <MatchThreshold value="95" />
+                  <MatchWeight value="100" />
+                </Match>
+              </Style>
+            </MatchField>
+          </MatchFields>
+          <MergeMode value="True" />
+          <SourceIdField>Source</SourceIdField>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFuzzyMatch" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="810" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType size="6">String</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1218" y="559" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>10000</StartValue>
+          <FieldType size="6">String</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2226" y="846" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="RecordID" selected="True" />
+            <SelectField field="GRT ID" selected="True" />
+            <SelectField field="Entity Alias Name" selected="True" />
+            <SelectField field="Period (Date Range)" selected="True" />
+            <SelectField field="Employee Name" selected="True" />
+            <SelectField field="Source" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="2502" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <AutoResetMode>Custom</AutoResetMode>
+          <MultiMetaInfo>
+            <MetaInfo name="#2">
+              <RecordInfo>
+                <Field name="RecordID" size="6" source="RecordID: Starting Value=10000" type="String" column="1" />
+                <Field name="Entity Alias Name" size="255" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" column="2" />
+                <Field name="Source" size="1073741823" source="Formula: &quot;GRT&quot; (BatchMacro)" type="V_WString" column="3" />
+                <Field name="Period (Date Range)" size="255" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" column="4" />
+                <Field name="Employee Name" size="255" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" column="5" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#1">
+              <RecordInfo>
+                <Field name="RecordID" size="6" source="RecordID: Starting Value=1" type="String" column="1" />
+                <Field name="Client Name" size="255" source="File: C:\Users\Upma.Gupta\OneDrive - EY\Version Log &amp; Code Repo\CMT to GRT\August\capital market - records 15 August 2024.xlsx|||`capital market - records $` (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" column="2" />
+                <Field name="Source" size="1073741823" source="Formula: &quot;CMT&quot;" type="V_WString" column="3" />
+                <Field name="Most Recent Completed Fiscal Year End" size="255" source="Formula: Left([Most Recent Completed Fiscal Year End], 4) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" column="4" />
+                <Field name="Engagement Quality Reviewer / Independent Reviewer" size="255" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" column="5" />
+              </RecordInfo>
+            </MetaInfo>
+          </MultiMetaInfo>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ManualDelayed</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="2730" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="RecordID" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="2862" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>RecordID</FieldFind>
+          <FieldSearch>RecordID</FieldSearch>
+          <ReplaceFoundField>Record Type</ReplaceFoundField>
+          <FindMode>FindWhole</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Append</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="Record ID" />
+            <Field field="Record Type" />
+            <Field field="Status" />
+            <Field field="Creation Date" />
+            <Field field="Advance Approval" />
+            <Field field="Submission Date" />
+            <Field field="Date Completed" />
+            <Field field="Engagement Name" />
+            <Field field="Engagement Number" />
+            <Field field="Client Name" />
+            <Field field="Client Code" />
+            <Field field="Area" />
+            <Field field="Region" />
+            <Field field="Most Recent Completed Fiscal Year End" />
+            <Field field="Partner in Charge" />
+            <Field field="Number of years of audits completed by PIC" />
+            <Field field="Engagement Quality Reviewer / Independent Reviewer" />
+            <Field field="Number of years of audits completed by EQR / IR" />
+            <Field field="Offering Reviewer" />
+            <Field field="Is a Regulatory Reviewer required for this transaction?" />
+            <Field field="Combined Key [Client Code+Year+EQR/IR]]" />
+            <Field field="Combine Key [Client Code+EQR/IR+NR]" />
+            <Field field="Source" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="2958" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>RecordID2</FieldFind>
+          <FieldSearch>RecordID</FieldSearch>
+          <ReplaceFoundField>GRT ID</ReplaceFoundField>
+          <FindMode>FindWhole</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Append</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="GRT ID" />
+            <Field field="Entity Alias Name" />
+            <Field field="Mercury Client ID" />
+            <Field field="Period (Date Range)" />
+            <Field field="EQR_Audit" />
+            <Field field="Public_Offering_Reviewer" />
+            <Field field="Employee Name" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1638" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>GRT ID</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-02-22 16:45:15</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-02-22 16:45:15</StartDate>
+              <EndDate>2024-02-22 16:45:15</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([GRT ID])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="3054" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>GRT ID</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-02-26 12:48:27</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-02-26 12:48:27</StartDate>
+              <EndDate>2024-02-26 12:48:27</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([GRT ID])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1434" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="GRT ID" />
+            <Field field="Entity Alias Name" />
+            <Field field="Period (Date Range)" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="510" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Offering Reviewer] != [Engagement Quality Reviewer / Independent Reviewer]</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Offering Reviewer] != [Engagement Quality Reviewer / Independent Reviewer]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="426" y="559" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>([Role Abbreviation] ="EQR-Audit") OR ([Role Abbreviation]= "Public Offering Reviewer")</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>([Role Abbreviation] ="EQR-Audit") OR ([Role Abbreviation]= "Public Offering Rev...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2226" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="RecordID" selected="True" />
+            <SelectField field="Client Name" selected="True" />
+            <SelectField field="Most Recent Completed Fiscal Year End" selected="True" />
+            <SelectField field="Engagement Quality Reviewer / Independent Reviewer" selected="True" />
+            <SelectField field="Source" selected="True" />
+            <SelectField field="GRT ID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1314" y="559" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="GRT ID" order="Ascending" />
+            <Field field="Entity Alias Name" order="Ascending" />
+            <Field field="Period (Date Range)" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GRT ID - Ascending
+Entity Alias Name - Ascending
+Period (Date Range) - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings>
+        <Position x="606" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Engagement Quality Reviewer / Independent Reviewer","Offering Reviewer"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">True</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings>
+        <Position x="702" y="559" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">""</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">True</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="798" y="559" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>EQR_Audit</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>EQR_Audit</RootName>
+          <Delimeters value=" " />
+          <NumFields value="3" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1002" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="TRIM(IF !IsNull([EQR_Audit3]) THEN [EQR_Audit1]+' '+[EQR_Audit3]&#xA;else [EQR_Audit1]+' '+[EQR_Audit2]&#xA;ENDIF)" field="EQR" size="255" type="V_WString" />
+            <FormulaField expression="Trim(IF !IsNull([Public_Offering_Reviewer3]) THEN [Public_Offering_Reviewer1]+' '+[Public_Offering_Reviewer3]&#xA;else [Public_Offering_Reviewer1]+' '+[Public_Offering_Reviewer2]&#xA;ENDIF)" field="POR" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF Contains([POR],&quot;Dan Kleeburg&quot;) THEN &quot;DANIEL KLEEBURG&quot; &#xA;ELSEIF Contains([POR],&quot;Darrell Kown&quot;) THEN &quot;DARRELL MC KOWN&quot;&#xA;ELSE [POR] ENDIF" field="POR" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF IsNull([POR]) OR IsEmpty([POR]) THEN [EQR] ELSE [POR] ENDIF" field="Employee Name" size="255" type="V_WString" />
+            <FormulaField expression="[Mercury Client ID]+[Period (Date Range)]+[Employee Name]" field="Combined Key [Client ID+Period+Emp]" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF IsEmpty([Period (Date Range)]) THEN &quot;Non-Rotational&quot; ELSE [Period (Date Range)] ENDIF" field="Period (Date Range)" size="255" type="V_String" />
+            <FormulaField expression="[Mercury Client ID]+[Employee Name]+[Period (Date Range)]" field="Combined Key [Client ID+Emp+NR]" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;GRT&quot;" field="Source" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>EQR = TRIM(IF !IsNull([EQR_Audit3]) THEN [EQR_Audit1]+' '+[EQR_Audit3]
+else [EQR...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="546" y="559" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="GRT ID" />
+            <Field field="Entity Alias Name" />
+            <Field field="Mercury Client ID" />
+            <Field field="GIS ID" />
+            <Field field="Period (Date Range)" />
+          </GroupFields>
+          <HeaderField field="Role Abbreviation" />
+          <DataField field="Employee Name" />
+          <Methods>
+            <Method method="First" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+          <RetainSpecChars value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GRT ID" size="255" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Entity Alias Name" size="255" source="CrossTab:Group:First:" type="V_WString" />
+            <Field name="Mercury Client ID" size="19" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="GIS ID" source="CrossTab:Group:First:" type="Double" />
+            <Field name="Period (Date Range)" size="255" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="EQR_Audit" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_WString" />
+            <Field name="Public_Offering_Reviewer" size="255" source="File: C:\Users\KD493HR\Desktop\CMT Workflow\MasterExportReport_UnitedStates-20250710-142521Z.xlsx|||`MasterExportReport_UnitedStates$`" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GRT ID" order="Asc" />
+            <Field field="Entity Alias Name" order="Asc" />
+            <Field field="Mercury Client ID" order="Asc" />
+            <Field field="GIS ID" order="Asc" />
+            <Field field="Period (Date Range)" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1782" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Offering Reviewer] = [POR]</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Offering Reviewer] = [POR]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="894" y="559" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Public_Offering_Reviewer</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Public_Offering_Reviewer</RootName>
+          <Delimeters value=" " />
+          <NumFields value="3" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2214" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;Level1:Exact Match with Same POR&quot;" field="Type of Match" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Type of Match = "Level1:Exact Match with Same POR"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2454" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;Level4:Non-rotational Match with different POR&quot;" field="Type of match" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Type of match = "Level4:Non-rotational Match with different POR"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="3162" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;Level5:Fuzzy match on client Name&quot;" field="Type of Match" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Type of Match = "Level5:Fuzzy match on client Name"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="3366" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="402" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>Record Type</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-03-18 15:12:08</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-03-18 15:12:08</StartDate>
+              <EndDate>2024-03-18 15:12:08</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Record Type])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="3486" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;https://globalrotation.ey.com/clients/&quot;+[GRT ID]" field="GRT Hyperlink" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF IsNull([Type of Match]) THEN &quot;Not Matched&quot; ELSE [Type of Match] ENDIF" field="Type of Match" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GRT Hyperlink = "https://globalrotation.ey.com/clients/"+[GRT ID]
+Type of Match ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="95">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="1974" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>Combine Key [Client Code+EQR/IR+NR]</FieldFind>
+          <FieldSearch>Combined Key [Client ID+Emp+NR]</FieldSearch>
+          <ReplaceFoundField>Entity Alias Name</ReplaceFoundField>
+          <FindMode>FindWhole</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Append</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="GRT ID" />
+            <Field field="Entity Alias Name" />
+            <Field field="Mercury Client ID" />
+            <Field field="Period (Date Range)" />
+            <Field field="EQR" />
+            <Field field="POR" />
+            <Field field="Employee Name" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="97">
+      <GuiSettings>
+        <Position x="1122" y="559" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"GRT ID","Entity Alias Name","Mercury Client ID","GIS ID","Period (Date Range)","EQR_Audit","Public_Offering_Reviewer","EQR_Audit1","EQR_Audit2","EQR_Audit3","Public_Offering_Reviewer1","Public_Offering_Reviewer2","Public_Offering_Reviewer3","EQR","POR","Employee Name"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="99">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1878" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="RecordID" selected="True" />
+            <SelectField field="Record ID" selected="True" />
+            <SelectField field="Record Type" selected="True" />
+            <SelectField field="Status" selected="True" />
+            <SelectField field="Creation Date" selected="True" />
+            <SelectField field="Advance Approval" selected="True" />
+            <SelectField field="Submission Date" selected="True" />
+            <SelectField field="Date Completed" selected="True" />
+            <SelectField field="Engagement Name" selected="True" />
+            <SelectField field="Engagement Number" selected="True" />
+            <SelectField field="Client Name" selected="True" />
+            <SelectField field="Client Code" selected="True" />
+            <SelectField field="Area" selected="True" />
+            <SelectField field="Region" selected="True" />
+            <SelectField field="Most Recent Completed Fiscal Year End" selected="True" />
+            <SelectField field="Partner in Charge" selected="True" />
+            <SelectField field="Number of years of audits completed by PIC" selected="True" />
+            <SelectField field="Engagement Quality Reviewer / Independent Reviewer" selected="True" />
+            <SelectField field="Number of years of audits completed by EQR / IR" selected="True" />
+            <SelectField field="Offering Reviewer" selected="True" />
+            <SelectField field="Is a Regulatory Reviewer required for this transaction?" selected="True" />
+            <SelectField field="Combined Key [Client Code+Year+EQR/IR]]" selected="True" />
+            <SelectField field="Combine Key [Client Code+EQR/IR+NR]" selected="True" />
+            <SelectField field="Source" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="101">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="2214" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Offering Reviewer] = [POR]</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Offering Reviewer] = [POR]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="102">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2454" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;Level3:Non-rotational Match with Same POR&quot;" field="Type of Match" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Type of Match = "Level3:Non-rotational Match with Same POR"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="103">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="2070" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>GRT ID</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-10-18 13:34:39</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-10-18 13:34:39</StartDate>
+              <EndDate>2024-10-18 13:34:39</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([GRT ID])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="111">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="3582" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="109">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="3258" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="RecordID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="RecordID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_RecordID" selected="False" rename="Right_RecordID" input="Right_" />
+                <SelectField field="Right_RecordID2" selected="False" input="Right_" />
+                <SelectField field="Right_Record ID" selected="False" rename="Right_Record ID" input="Right_" />
+                <SelectField field="Right_Record Type" selected="False" rename="Right_Record Type" input="Right_" />
+                <SelectField field="Right_Status" selected="False" rename="Right_Status" input="Right_" />
+                <SelectField field="Right_Creation Date" selected="False" rename="Right_Creation Date" input="Right_" />
+                <SelectField field="Right_Advance Approval" selected="False" rename="Right_Advance Approval" input="Right_" />
+                <SelectField field="Right_Submission Date" selected="False" rename="Right_Submission Date" input="Right_" />
+                <SelectField field="Right_Date Completed" selected="False" rename="Right_Date Completed" input="Right_" />
+                <SelectField field="Right_Engagement Name" selected="False" rename="Right_Engagement Name" input="Right_" />
+                <SelectField field="Right_Engagement Number" selected="False" rename="Right_Engagement Number" input="Right_" />
+                <SelectField field="Right_Client Name" selected="False" rename="Right_Client Name" input="Right_" />
+                <SelectField field="Right_Client Code" selected="False" rename="Right_Client Code" input="Right_" />
+                <SelectField field="Right_Area" selected="False" rename="Right_Area" input="Right_" />
+                <SelectField field="Right_Region" selected="False" rename="Right_Region" input="Right_" />
+                <SelectField field="Right_Most Recent Completed Fiscal Year End" selected="False" rename="Right_Most Recent Completed Fiscal Year End" input="Right_" />
+                <SelectField field="Right_Partner in Charge" selected="False" rename="Right_Partner in Charge" input="Right_" />
+                <SelectField field="Right_Number of years of audits completed by PIC" selected="False" rename="Right_Number of years of audits completed by PIC" input="Right_" />
+                <SelectField field="Right_Engagement Quality Reviewer / Independent Reviewer" selected="False" rename="Right_Engagement Quality Reviewer / Independent Reviewer" input="Right_" />
+                <SelectField field="Right_Number of years of audits completed by EQR / IR" selected="False" rename="Right_Number of years of audits completed by EQR / IR" input="Right_" />
+                <SelectField field="Right_Offering Reviewer" selected="False" rename="Right_Offering Reviewer" input="Right_" />
+                <SelectField field="Right_Is a Regulatory Reviewer required for this transaction?" selected="False" rename="Right_Is a Regulatory Reviewer required for this transaction?" input="Right_" />
+                <SelectField field="Right_Combined Key [Client Code+Year+EQR/IR]]" selected="False" rename="Right_Combined Key [Client Code+Year+EQR/IR]]" input="Right_" />
+                <SelectField field="Right_Combine Key [Client Code+EQR/IR+NR]" selected="False" rename="Right_Combine Key [Client Code+EQR/IR+NR]" input="Right_" />
+                <SelectField field="Right_Source" selected="False" rename="Right_Source" input="Right_" />
+                <SelectField field="Right_GRT ID" selected="False" rename="Right_GRT ID" input="Right_" />
+                <SelectField field="Right_Entity Alias Name" selected="False" rename="Right_Entity Alias Name" input="Right_" />
+                <SelectField field="Right_Mercury Client ID" selected="False" rename="Right_Mercury Client ID" input="Right_" />
+                <SelectField field="Right_Period (Date Range)" selected="False" rename="Right_Period (Date Range)" input="Right_" />
+                <SelectField field="Right_EQR_Audit" selected="False" rename="Right_EQR_Audit" input="Right_" />
+                <SelectField field="Right_Public_Offering_Reviewer" selected="False" rename="Right_Public_Offering_Reviewer" input="Right_" />
+                <SelectField field="Right_Employee Name" selected="False" rename="Right_Employee Name" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="115">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1698" y="690" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KD493HR\AppData\Local\Temp\Alteryx\Engine_33472_3967ac7a2fda4b06917bf4063304a4c9_\Engine_29408_77365df793e84d2c99dc76e22d52e0b7_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="117">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="678" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotEmpty</Operator>
+            <Field>Mercury Client ID</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-02-23 16:28:44</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-02-23 16:28:44</StartDate>
+              <EndDate>2024-02-23 16:28:44</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([Mercury Client ID])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="121">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2490" y="918" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KD493HR\AppData\Local\Temp\Alteryx\Engine_33472_3967ac7a2fda4b06917bf4063304a4c9_\Engine_29408_286533c0b53e4180ba7149527baae2da_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="122">
+      <GuiSettings>
+        <Position x="2334" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Client Name"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="123">
+      <GuiSettings>
+        <Position x="2334" y="846" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Entity Alias Name"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="124">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1782" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="126">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KD493HR\AppData\Local\Temp\Alteryx\Engine_33472_3967ac7a2fda4b06917bf4063304a4c9_\Engine_29408_46200380d4304f7291e7bc4f134001ab_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="127">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2214" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;Level2:Exact Match with Different POR&quot;" field="Type of Match" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Type of Match = "Level2:Exact Match with Different POR"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="128">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2070" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="RecordID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="RecordID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_RecordID" selected="False" rename="Right_RecordID" input="Right_" />
+                <SelectField field="Right_Record ID" selected="False" rename="Right_Record ID" input="Right_" />
+                <SelectField field="Right_Record Type" selected="False" rename="Right_Record Type" input="Right_" />
+                <SelectField field="Right_Status" selected="False" rename="Right_Status" input="Right_" />
+                <SelectField field="Right_Creation Date" selected="False" rename="Right_Creation Date" input="Right_" />
+                <SelectField field="Right_Advance Approval" selected="False" rename="Right_Advance Approval" input="Right_" />
+                <SelectField field="Right_Submission Date" selected="False" rename="Right_Submission Date" input="Right_" />
+                <SelectField field="Right_Date Completed" selected="False" rename="Right_Date Completed" input="Right_" />
+                <SelectField field="Right_Engagement Name" selected="False" rename="Right_Engagement Name" input="Right_" />
+                <SelectField field="Right_Engagement Number" selected="False" rename="Right_Engagement Number" input="Right_" />
+                <SelectField field="Right_Client Name" selected="False" rename="Right_Client Name" input="Right_" />
+                <SelectField field="Right_Client Code" selected="False" rename="Right_Client Code" input="Right_" />
+                <SelectField field="Right_Area" selected="False" rename="Right_Area" input="Right_" />
+                <SelectField field="Right_Region" selected="False" rename="Right_Region" input="Right_" />
+                <SelectField field="Right_Most Recent Completed Fiscal Year End" selected="False" rename="Right_Most Recent Completed Fiscal Year End" input="Right_" />
+                <SelectField field="Right_Partner in Charge" selected="False" rename="Right_Partner in Charge" input="Right_" />
+                <SelectField field="Right_Number of years of audits completed by PIC" selected="False" rename="Right_Number of years of audits completed by PIC" input="Right_" />
+                <SelectField field="Right_Engagement Quality Reviewer / Independent Reviewer" selected="False" rename="Right_Engagement Quality Reviewer / Independent Reviewer" input="Right_" />
+                <SelectField field="Right_Number of years of audits completed by EQR / IR" selected="False" rename="Right_Number of years of audits completed by EQR / IR" input="Right_" />
+                <SelectField field="Right_Offering Reviewer" selected="False" rename="Right_Offering Reviewer" input="Right_" />
+                <SelectField field="Right_Is a Regulatory Reviewer required for this transaction?" selected="False" rename="Right_Is a Regulatory Reviewer required for this transaction?" input="Right_" />
+                <SelectField field="Right_Combined Key [Client Code+Year+EQR/IR]]" selected="False" rename="Right_Combined Key [Client Code+Year+EQR/IR]]" input="Right_" />
+                <SelectField field="Right_Combine Key [Client Code+EQR/IR+NR]" selected="False" rename="Right_Combine Key [Client Code+EQR/IR+NR]" input="Right_" />
+                <SelectField field="Right_Source" selected="False" rename="Right_Source" input="Right_" />
+                <SelectField field="Right_GRT ID" selected="False" rename="Right_GRT ID" input="Right_" />
+                <SelectField field="Right_Entity Alias Name" selected="False" rename="Right_Entity Alias Name" input="Right_" />
+                <SelectField field="Right_Mercury Client ID" selected="False" rename="Right_Mercury Client ID" input="Right_" />
+                <SelectField field="Right_Period (Date Range)" selected="False" rename="Right_Period (Date Range)" input="Right_" />
+                <SelectField field="Right_EQR" selected="False" rename="Right_EQR" input="Right_" />
+                <SelectField field="Right_POR" selected="False" rename="Right_POR" input="Right_" />
+                <SelectField field="Right_Employee Name" selected="False" rename="Right_Employee Name" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="3689" y="65" width="155" height="225" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 59</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="3714" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="25">C:\Users\KD493HR\Desktop\CMT Workflow\CMT to GRT Comparison June 2025 results.xlsx.bak.xlsx|||Output</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <PreserveFormat>False</PreserveFormat>
+                <UNCLocal>False</UNCLocal>
+                <SkipFieldNames>False</SkipFieldNames>
+                <SuppressBlankFile>False</SuppressBlankFile>
+                <OutputOption>Overwrite</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>CMT to GRT Comparison June 2025 results.xlsx.bak.xlsx
+Query=Output</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="23" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Unique" />
+      <Destination ToolID="23" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="13" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Unique" />
+      <Destination ToolID="13" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="121" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="123" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Unique" />
+      <Destination ToolID="24" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="True" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="29" Connection="False" />
+      <Destination ToolID="124" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="67" Connection="False" />
+      <Destination ToolID="124" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="True" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Unique" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Unique" />
+      <Destination ToolID="95" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="99" Connection="Output" />
+      <Destination ToolID="95" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Unique" />
+      <Destination ToolID="115" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="True" />
+      <Destination ToolID="60" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="True" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="122" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output26" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output26" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="97" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="61" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="117" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="126" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="True" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="False" />
+      <Destination ToolID="128" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="103" Connection="False" />
+      <Destination ToolID="128" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection name="#6">
+      <Origin ToolID="102" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="109" Connection="Join" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="109" Connection="Left" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="127" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="109" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="128" Connection="Right" />
+      <Destination ToolID="109" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="True" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="111" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="95" Connection="Output" />
+      <Destination ToolID="103" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="97" Connection="Output26" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="101" Connection="True" />
+      <Destination ToolID="102" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="101" Connection="False" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="103" Connection="True" />
+      <Destination ToolID="101" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="111" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="122" Connection="Output26" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="123" Connection="Output26" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="124" Connection="Output" />
+      <Destination ToolID="99" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="128" Connection="Join" />
+      <Destination ToolID="127" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="128" Connection="Right" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>CMT to GRT June 2025 (1)</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="87162212-efc7-471c-91f5-1509f510ac6b" />
+      <Telemetry>
+        <PreviousWorkflowId value="8cccd0d1-3837-4bda-bea9-ffa0b94b7e4c" />
+        <OriginWorkflowId value="f59009ba-89b3-45f5-8952-2c1de4199e41" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
